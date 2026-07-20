@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Local sample data people may drop in while testing
+/sample-data/
+*.xlsx
+*.xls
+*.csv
+!*.example.csv
