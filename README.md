@@ -31,11 +31,6 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
-### Option 3 — GitHub Pages
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**, set the source to the `main` branch / root folder.
-3. Your app will be live at `https://<your-username>.github.io/strata-dca-studio/`.
-
 ## Input data format
 
 Upload an `.xlsx` or `.csv` file with at least these two columns (header names are matched case-insensitively):
@@ -47,7 +42,7 @@ Upload an `.xlsx` or `.csv` file with at least these two columns (header names a
 
 In **Multi Well** mode, upload multiple files — one file per well, named however you like (the file name is used as the well name).
 
-A small synthetic dataset is included at [`sample-data.example.csv`](sample-data.example.csv) if you want to try the app immediately without your own data.
+A small synthetic dataset is included at (sample-data.example.xlsx) 
 
 ## Methodology
 
